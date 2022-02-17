@@ -5,4 +5,4 @@ Create cryptocurrency payments, without creating an account, that respect your p
 
 # Documentation
 ##### ⚠️ Please note that we only support BTC atm.
-### [Create payment]()
+### [Create payment](https://github.com/Brkln/Alaska-API/blob/main/docs/CreatePayment.MD)
