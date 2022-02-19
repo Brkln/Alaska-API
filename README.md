@@ -4,6 +4,6 @@ Create cryptocurrency payments, without creating an account, that respect your p
 ## 👷🚧 Still in dev, request an API key: `alaska@brooklyn.is`
 
 # Documentation
-##### ⚠️ Please note that we only support BTC atm.
+##### ⚠️ Please note that we only support BTC atm. If you want to avoid web requests limits (6/h), request an API key `alaska@brooklyn.is`
 ### `POST` [Create payment](https://github.com/Brkln/Alaska-API/blob/main/docs/CreatePayment.MD)
 ### `GET` [Payment Status](https://github.com/Brkln/Alaska-API/blob/main/docs/PaymentStatus.MD)
