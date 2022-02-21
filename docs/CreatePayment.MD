@@ -10,10 +10,12 @@ Body:
   "minimum_confirmations":4,
   "price":0.003, *
   "satoshi-per-byte":6,
+  "exact":false,
   "testnet":true, 
   "crypto":"bitcoin" *
 }
 ```
+Note: if `exact` is false, it'll let the customer send for example 28$ on a 30$ product, ~5% error allowed. If it's on true, he'll have to resend the 2$.
 
 Response:
 ```json
