@@ -11,7 +11,6 @@ Body:
   "price":0.003, *
   "satoshi-per-byte":6,
   "exact":false,
-  "testnet":true, 
   "crypto":"bitcoin" *
 }
 ```
@@ -29,7 +28,6 @@ Response:
   }
   "settings":{
     "satoshi-per-byte":6,
-    "testnet":true,
     "crypto":"bitcoin",
     "webhook_url":"https://brooklyn.is/payment",
     "minimum_confirmations":4
