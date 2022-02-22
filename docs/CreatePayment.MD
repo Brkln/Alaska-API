@@ -11,7 +11,6 @@ Body:
   "price":0.003, *
   "satoshi-per-byte":6,
   "exact":false,
-  "crypto":"bitcoin" *
 }
 ```
 Note: if `exact` is false, it'll let the customer send for example 28$ on a 30$ product, ~5% error allowed. If it's on true, he'll have to resend the 2$.
@@ -28,7 +27,6 @@ Response:
   }
   "settings":{
     "satoshi-per-byte":6,
-    "crypto":"bitcoin",
     "webhook_url":"https://brooklyn.is/payment",
     "minimum_confirmations":4
   }
